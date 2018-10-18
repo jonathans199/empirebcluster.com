@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-2 d-flex justify-content-center align-items-center">
-          <img class="footer-logo" src="@/assets/img/viviela_logo300px.png" alt="">
+          <img class="footer-logo" src="@/assets/img/yourlogo.png" alt="">
         </div>
         <div class="col-8">
           <ul>

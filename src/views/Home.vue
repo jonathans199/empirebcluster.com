@@ -31,29 +31,29 @@
     </section>
 
     <section class="teaser-video">
-      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/izQgy2OlHsg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/AlmKpOlYv4I?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </section>
 
     <section class="blog-container">
       <h1>BLOG</h1>
       <div class="blog">
         <div class="blog-post">
-          <img src="../assets/img/blog-post1.jpg" alt="">
+          <img src="https://placeimg.com/480/480/any/grayscale" alt="">
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam temporibus corrupti nesciunt doloremque atque modi, earum nemo, possimus odit sit fugiat. Minima reiciendis nihil ab enim voluptas rem nisi tempora.</p>
           <a href="#">View more</a>
         </div>
         <div class="blog-post">
-          <img src="../assets/img/blog-post1.jpg" alt="">
+          <img src="https://placeimg.com/480/480/any/grayscale" alt="">
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam temporibus corrupti nesciunt doloremque atque modi, earum nemo, possimus odit sit fugiat. Minima reiciendis nihil ab enim voluptas rem nisi tempora.</p>
           <a href="#">View more</a>
         </div>
         <div class="blog-post">
-          <img src="../assets/img/blog-post1.jpg" alt="">
+          <img src="https://placeimg.com/480/480/any/grayscale" alt="">
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam temporibus corrupti nesciunt doloremque atque modi, earum nemo, possimus odit sit fugiat. Minima reiciendis nihil ab enim voluptas rem nisi tempora.</p>
           <a href="#">View more</a>
         </div>
         <div class="blog-post">
-          <img src="../assets/img/blog-post1.jpg" alt="">
+          <img src="https://placeimg.com/480/480/any/grayscale" alt="">
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam temporibus corrupti nesciunt doloremque atque modi, earum nemo, possimus odit sit fugiat. Minima reiciendis nihil ab enim voluptas rem nisi tempora.</p>
           <a href="#">View more</a>
         </div>
