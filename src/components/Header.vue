@@ -8,21 +8,9 @@
           <router-link to="/">Contact</router-link>
         </div>
       </div>
-      
-      <button 
-        class="navbar-toggler" 
-        type="button" 
-        data-toggle="collapse" 
-        data-target="#navbarSupportedContent" 
-        aria-controls="navbarSupportedContent" 
-        aria-expanded="false" 
-        aria-label="Toggle navigation">
-        
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
       <div class="menu">
-          <a class="navbar-brand" href="/"><img class="header__logo" alt="Vue logo" src="@/assets/img/yourlogo.png"></a>
+          <a class="navbar-brand" href="/"><img class="header__logo" alt="Vue logo" src="@/assets/img/empire_logo_wht-h.png"></a>
           <div>
           <a class="menu__button" @click="openNav()"> MENU <img src="../assets/img/menu-button.svg" alt=""></a>
           <b-dropdown variant="link" no-caret class="navbar__cart">

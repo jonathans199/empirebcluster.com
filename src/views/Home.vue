@@ -2,67 +2,158 @@
   <div>
     <Header/>
     <div id="carouselExampleIndicators" class="carousel slide custom-slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-      </ol>
       <div class="carousel-inner">
           <div class="carousel-item active slide1"></div>
           <div class="carousel-item slide2"></div>
           <div class="carousel-item slide3"></div>
           <div class="carousel-item slide4"></div>
       </div>
+       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
     </div>
 
     <section class="about">
-      <h1>WHAT ARE WE</h1>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut fugit illo officia et obcaecati non!</p>
+      <div class="about_text container">
+        <h1>ABOUT US</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci a odit veniam autem dignissimos atque et magnam consequuntur rerum aliquam pariatur porro soluta placeat nemo similique, praesentium laboriosam? Inventore, animi.</p>
+        <button class="about_button">Read More</button>
+      </div>
     </section>
 
-    <section class="divider1">
+    <section class="inversion-packets">
+      <h1>INVERSION PACKETS</h1>
     </section>
 
-    <Shop/>
     
-    <section class="teaser">
-      <h1>TEASER VIVIELA</h1>
+    <section class="features container">
+      <h1>FEATURES </h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore sint, reprehenderit ipsum non, obcaecati asperiores vel, rerum minus deleniti aut molestiae unde laborum numquam illo! Nesciunt mollitia quos molestiae nam.</p>
+      <div>
+        <b-card-group deck >
+            <b-card class="features-card">
+                <img src="@/assets/img/bronce.png" alt="" class="features-card_img">
+                <h2>BRONCE</h2>
+                <h3 class="features-card_price">$2,000</h3>
+                <p class="features-card_text">
+                    This is a wider card with supporting text below as a
+                    natural lead-in
+                </p>
+                <img src="@/assets/img/bronce_icon.png" alt="" class="features-card_icon">
+            </b-card>
+           <b-card class="features-card">
+                <img src="@/assets/img/bronce.png" alt="" class="features-card_img">
+                <h2>BRONCE</h2>
+                <h3 class="features-card_price">$2,000</h3>
+                <p class="features-card_text">
+                    This is a wider card with supporting text below as a
+                    natural lead-in
+                </p>
+                <img src="@/assets/img/bronce_icon.png" alt="" class="features-card_icon">
+            </b-card>
+            <b-card class="features-card">
+                <img src="@/assets/img/bronce.png" alt="" class="features-card_img">
+                <h2>BRONCE</h2>
+                <h3 class="features-card_price">$2,000</h3>
+                <p class="features-card_text">
+                    This is a wider card with supporting text below as a
+                    natural lead-in
+                </p>
+                <img src="@/assets/img/bronce_icon.png" alt="" class="features-card_icon">
+            </b-card>
+        </b-card-group>
+        <b-card-group deck >
+            <b-card class="features-card">
+                <img src="@/assets/img/bronce.png" alt="" class="features-card_img">
+                <h2>BRONCE</h2>
+                <h3 class="features-card_price">$2,000</h3>
+                <p class="features-card_text">
+                    This is a wider card with supporting text below as a
+                    natural lead-in
+                </p>
+                <img src="@/assets/img/bronce_icon.png" alt="" class="features-card_icon">
+            </b-card>
+           <b-card class="features-card">
+                <img src="@/assets/img/bronce.png" alt="" class="features-card_img">
+                <h2>BRONCE</h2>
+                <h3 class="features-card_price">$2,000</h3>
+                <p class="features-card_text">
+                    This is a wider card with supporting text below as a
+                    natural lead-in
+                </p>
+                <img src="@/assets/img/bronce_icon.png" alt="" class="features-card_icon">
+            </b-card>
+            <b-card class="features-card">
+                <img src="@/assets/img/bronce.png" alt="" class="features-card_img">
+                <h2>BRONCE</h2>
+                <h3 class="features-card_price">$2,000</h3>
+                <p class="features-card_text">
+                    This is a wider card with supporting text below as a
+                    natural lead-in
+                </p>
+                <img src="@/assets/img/bronce_icon.png" alt="" class="features-card_icon">
+            </b-card>
+        </b-card-group>
+      </div>
     </section>
 
-    <section class="teaser-video">
-      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/AlmKpOlYv4I?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </section>
-
-    <section class="blog-container">
-      <h1>BLOG</h1>
-      <div class="blog">
-        <div class="blog-post">
-          <img src="https://placeimg.com/480/480/any/grayscale" alt="">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam temporibus corrupti nesciunt doloremque atque modi, earum nemo, possimus odit sit fugiat. Minima reiciendis nihil ab enim voluptas rem nisi tempora.</p>
-          <a href="#">View more</a>
+    <section class="our-plans">
+      <div class="container">
+        <div class="our-plans_titletext">
+          <h1>OUR PLANS</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore sint, reprehenderit ipsum non, obcaecati asperiores vel, rerum minus deleniti aut molestiae unde laborum numquam illo! Nesciunt mollitia quos molestiae nam.</p>
         </div>
-        <div class="blog-post">
-          <img src="https://placeimg.com/480/480/any/grayscale" alt="">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam temporibus corrupti nesciunt doloremque atque modi, earum nemo, possimus odit sit fugiat. Minima reiciendis nihil ab enim voluptas rem nisi tempora.</p>
-          <a href="#">View more</a>
-        </div>
-        <div class="blog-post">
-          <img src="https://placeimg.com/480/480/any/grayscale" alt="">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam temporibus corrupti nesciunt doloremque atque modi, earum nemo, possimus odit sit fugiat. Minima reiciendis nihil ab enim voluptas rem nisi tempora.</p>
-          <a href="#">View more</a>
-        </div>
-        <div class="blog-post">
-          <img src="https://placeimg.com/480/480/any/grayscale" alt="">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam temporibus corrupti nesciunt doloremque atque modi, earum nemo, possimus odit sit fugiat. Minima reiciendis nihil ab enim voluptas rem nisi tempora.</p>
-          <a href="#">View more</a>
+        <div>
+          <b-card-group deck >
+              <b-card class="features-card">
+                  <img src="@/assets/img/bronce.png" alt="" class="features-card_img">
+                  <h2>BRONCE</h2>
+                  <h3 class="features-card_price">$2,000</h3>
+                  <p class="features-card_text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in
+                  </p>
+                  <img src="@/assets/img/bronce_icon.png" alt="" class="features-card_icon">
+              </b-card>
+            <b-card class="features-card">
+                  <img src="@/assets/img/bronce.png" alt="" class="features-card_img">
+                  <h2>BRONCE</h2>
+                  <h3 class="features-card_price">$2,000</h3>
+                  <p class="features-card_text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in
+                  </p>
+                  <img src="@/assets/img/bronce_icon.png" alt="" class="features-card_icon">
+              </b-card>
+              <b-card class="features-card">
+                  <img src="@/assets/img/bronce.png" alt="" class="features-card_img">
+                  <h2>BRONCE</h2>
+                  <h3 class="features-card_price">$2,000</h3>
+                  <p class="features-card_text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in
+                  </p>
+                  <img src="@/assets/img/bronce_icon.png" alt="" class="features-card_icon">
+              </b-card>
+          </b-card-group>
         </div>
       </div>
-       <button class="vv-button">READ MORE</button>
-      <span>INFO@VIVIELA.COM / MIAMI, FL</span>
     </section>
-    <div class="banner3">
-      <h1>FASHION TV EVENT</h1>
+
+
+
+    <div class="newsletter">
+      <div class="container">
+        <h1>Subscribe for Our newsletter</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque soluta ducimus porro vel aperiam quos dicta hic excepturi alias. Omnis similique beatae nam unde. Recusandae asperiores porro minus sapiente et?</p>
+        <input type="text" placeholder="your email here">
+        <b-btn>Subscribe</b-btn>
+      </div>
     </div>
     <Contact/>
     <Footer/>

@@ -1,7 +1,8 @@
 <template>
   <section class="contact__container">
+    <img src="@/assets/img/contact.png" class="contact__img" alt="">
       <div class="col-12 col-md-6">
-        <img src="@/assets/img/contact_shoe.jpg" class="img-fluid" alt="">
+        
       </div>
       <div class="col-12 col-md-6 contact_form"> 
         <div class="container row">
@@ -82,10 +83,12 @@
   }
   .contact__container {
     margin-bottom: 0px;
-    background-color: #ECECEC;
+    background-color: #fff;
     display: flex;
     flex-direction: row
   }
+
+
 </style>
 
 
