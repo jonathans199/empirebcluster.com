@@ -23,17 +23,7 @@ Vue.use(BootstrapVue)
 Vue.use(Toasted)
 
 export default {
-  created(){
-    this.setCart()
-  },
-
-  methods:{
-    setCart(){
-      if (config.getLocalCart() === null) {
-        config.createLocalCart()
-      }
-    }
-  }
+  
 }
 
 </script>

@@ -11,41 +11,9 @@ header {
     height: 17rem;
   }
 
-  .navbar__cart-close i {
-    color: #cc1b1b;
-    font-size: 13px !important
-  }
-  .navbar__cart-close {
-    margin-left: auto;
-    order: 2;
-  }
-  .navbar__cart-button {
-    background-color: #4E363F;
-    cursor: pointer;
-    width: 100%;
-    border: 1px solid #4E363F;
-    color: white;
-    margin-bottom: 0px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-  .navbar__cart-container{ 
-    overflow-y: scroll;
-    height: 240px;
-  }
-  .navbar__cart-item{
-    display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-bottom: 0.5px solid #ececec
-  }
-  .navbar__cart > div{
-    width: 250px;
-    transform: translate3d(-205px, 35px, 0px) !important;
-    font-size: 15px
-  }
+  
+
+  
   .navbar__custom-item-img {
     width: 50px;
     height: 50px;
@@ -75,5 +43,44 @@ header {
     justify-content: space-between;
 
     padding: 0 2rem;
+
+    &-right{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 25%;
+      cursor: pointer;
+    }
+
+    &__buttons {
+      color: white !important;
+      font-size: 19px;
+    }
+
+    &_ham{
+      width: 30px;
+      margin: 0 15px;
+      
+    }
+
+    &-singup-button{
+      width: 100%;
+      height: 40px;
+      color: white;
+      
+      background-color: #E19630;
+      border: none;
+      padding: 1rem 2rem;
+      border-radius: 40px;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 12px;
+      
+    }
+
+    
+
   }
+
+  
   

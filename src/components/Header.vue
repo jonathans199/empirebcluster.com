@@ -8,34 +8,17 @@
           <router-link to="/">Contact</router-link>
         </div>
       </div>
-
+      
       <div class="menu">
+        
           <a class="navbar-brand" href="/"><img class="header__logo" alt="Vue logo" src="@/assets/img/empire_logo_wht-h.png"></a>
-          <div>
-          <a class="menu__button" @click="openNav()"> MENU <img src="../assets/img/menu-button.svg" alt=""></a>
-          <b-dropdown variant="link" no-caret class="navbar__cart">
-            <template slot="button-content">
-              <i class="fa fa-shopping-cart" style="color:black"></i>
-              <b-badge pill variant="danger">{{count}}</b-badge>
-            </template>
 
-            <ul class="navbar__cart-container">
-              <li class="navbar__cart-item"  v-for="item in items">
-                <img :src="item.images[0].thumb" class="img-fluid img-thumbnail navbar__custom-item-img">
-                <span class="ml-3">
-                  <div>{{item.name}}</div>
-                  <div><small>{{item.qty}} x ${{item.price}} USD</small></div>
-                </span>
-                <span class="navbar__cart-close">
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-times"></i>
-                  </a>
-                </span>
-                <!-- <b-dropdown-divider></b-dropdown-divider> -->
-              </li>
-            </ul>
-            <button class="navbar__cart-button">CHECKOUT</button>
-          </b-dropdown>
+          <div class="menu-right">
+            <a class="menu__buttons" @click="openNav()"> 
+              <span class>MENU</span>
+              <img class="menu_ham" src="../assets/img/menu-button.svg" alt="">
+            </a>
+            <b-button href="https://app.empirebcluster.com/" target="_blank" class="menu-singup-button">Signup / Login</b-button>
           </div>
       </div>
     </nav>
@@ -98,11 +81,11 @@ export default {
     },
     
     openNav() {
-      document.getElementById("myNav").style.height = "100%"
+      document.getElementById("myNav").style.width = "450px"
     },
 
     closeNav() {
-      document.getElementById("myNav").style.height = "0%"
+      document.getElementById("myNav").style.width = "0"
     },
 
     // scroll(id){
@@ -119,14 +102,16 @@ export default {
 <style>
 
 	.overlay {
-    height: 0%;
-    width: 100%;
+    height: 100%;
+    width: 0%;
     position: fixed;
     z-index: 999;
     top: 0;
-    left: 0;
+    right: 0;
     background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
+    background-color: rgba(0,0,0, 0.85);
+    -webkit-clip-path: polygon(34% 0, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(34% 0, 100% 0%, 100% 100%, 0% 100%);
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -140,16 +125,18 @@ export default {
 }
 
 .overlay a {
-    padding: 8px;
+    padding: 1rem 5rem;;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: #fff;
     display: block;
     transition: 0.3s;
+    text-align: right;
+    
 }
 
 .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+    color: #666;
 }
 
 .overlay .closebtn {

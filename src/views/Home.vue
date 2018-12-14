@@ -2,16 +2,24 @@
   <div>
     <Header/>
     <div id="carouselExampleIndicators" class="carousel slide custom-slide" data-ride="carousel">
+            <div class="hero-text-container">
+              <h1 class="hero-text-title">LA FORMA MAS INNOVADORA DE MINAR CRYPTOMONEDA</h1>
+              <b-button class="menu-singup-button herobtn">Register today</b-button>
+            </div>
       <div class="carousel-inner">
           <div class="carousel-item active slide1"></div>
           <div class="carousel-item slide2"></div>
           <div class="carousel-item slide3"></div>
           <div class="carousel-item slide4"></div>
       </div>
+
+
+      
        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
+        
         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
@@ -149,10 +157,12 @@
 
     <div class="newsletter">
       <div class="container">
-        <h1>Subscribe for Our newsletter</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque soluta ducimus porro vel aperiam quos dicta hic excepturi alias. Omnis similique beatae nam unde. Recusandae asperiores porro minus sapiente et?</p>
-        <input type="text" placeholder="your email here">
-        <b-btn>Subscribe</b-btn>
+        <h1 class="newsletter-title">Subscribe for Our Newsletter</h1>
+        <p class="newsletter-subtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque soluta ducimus porro vel aperiam quos dicta hic excepturi alias. Omnis similique beatae nam unde. Recusandae asperiores porro minus sapiente et?</p>
+        <input class="newsletter-input" type="text" placeholder="your email here">
+        <b-btn class="newsletter-btn">
+          <span class="newsletter-text"> Subscribe</span>
+        </b-btn>
       </div>
     </div>
     <Contact/>
