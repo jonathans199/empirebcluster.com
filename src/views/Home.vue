@@ -3,9 +3,13 @@
     <Header/>
     <div id="carouselExampleIndicators" class="carousel slide custom-slide" data-ride="carousel">
             <div class="hero-text-container">
-              <h1 class="hero-text-title">LA FORMA MAS INNOVADORA DE MINAR CRYPTOMONEDA</h1>
+              <h1 class="hero-text-title">LA FORMA MAS INNOVADORA DE CAPITALIZAR CRIPTOMONEDA</h1>
               <b-button class="menu-singup-button herobtn">Register today</b-button>
             </div>
+        
+        
+      
+      
       <div class="carousel-inner">
           <div class="carousel-item active slide1"></div>
           <div class="carousel-item slide2"></div>
@@ -28,14 +32,24 @@
 
     <section class="about">
       <div class="about_text container">
-        <h1>ABOUT US</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci a odit veniam autem dignissimos atque et magnam consequuntur rerum aliquam pariatur porro soluta placeat nemo similique, praesentium laboriosam? Inventore, animi.</p>
+        <h1>SOBRE NOSOTROS</h1>
+        
+        <h4><p>Empire Business Cluster, es una compañía de inversiones global e independiente, formada por un equipo de trabajo experto en mercados bursátiles tanto virtuales como físicos y especializados en el mercado de las criptomonedas, enfocados en BitCoin (BTC), LiteCoin (LTC) y DogeCoin (DOGE).</p> 
+
+<p>Ofrecemos a cada inversionista la oportunidad de generar ganancias estables, sin asumir riesgo por falta de conocimiento y capacitación.</p>
+
+<p>Empire Businnes Cluster no solo opera en el comercio de criptomonedas, sino que a su vez trabaja con uno de los comodines más transados en el mundo como lo es el café, mezclando una variedad de inversiones en: Barras de Caffe (Coffee Shop), restaurantes y un Ecommerce. La combinación perfecta de la economía del futuro y la tradicional.</p>
+
+<p>Asignamos el 60% de sus activos a la minería de criptomoneda y trading, lo que garantiza una estabilidad de ganancia en su inversión.</p>
+
+<p>Queremos ayudarte a mantener y aumentar tu capital de manera segura, minimizando los riesgos.</p></h4>
+
         <button class="about_button">Read More</button>
       </div>
     </section>
 
     <section class="inversion-packets">
-      <h1>INVERSION PACKETS</h1>
+      <h1>INVERSION PLANS</h1>
     </section>
 
     
