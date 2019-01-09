@@ -18,7 +18,8 @@
               <span class>MENU</span>
               <img class="menu_ham" src="../assets/img/menu-button.svg" alt="">
             </a>
-            <b-button href="https://app.empirebcluster.com/" target="_blank" class="menu-singup-button">Signup / Login</b-button>
+            <b-button href="https://app.empirebcluster.com/#/register" target="_self" class="menu-singup-button">Sign up</b-button>            
+            <b-button href="https://app.empirebcluster.com/" target="_self" class="menu-singup-button">Login</b-button>
           </div>
       </div>
     </nav>
@@ -116,7 +117,7 @@ export default {
     transition: 0.5s;
 }
 
-	.overlay-content {
+	.-content {
     position: relative;
     top: 25%;
     width: 100%;
