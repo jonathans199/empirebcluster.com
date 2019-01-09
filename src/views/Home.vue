@@ -1,48 +1,53 @@
 <template>
   <div>
     <Header/>
-    <div id="carouselExampleIndicators" class="carousel slide custom-slide" data-ride="carousel">
-            <div class="hero-text-container">
-              <h1 class="hero-text-title">LA FORMA MAS INNOVADORA DE CAPITALIZAR CRIPTOMONEDA</h1>
-              <b-button class="menu-singup-button herobtn">Register today</b-button>
-            </div>
-        
-        
-      
-      
-      <div class="carousel-inner">
-          <div class="carousel-item active slide1"></div>
-          <div class="carousel-item slide2"></div>
-          <div class="carousel-item slide3"></div>
-          <div class="carousel-item slide4"></div>
-      </div>
+			<div id="carouselExampleIndicators" class="carousel slide custom-slide" data-ride="carousel">
+				
+				
+ 
+				<div class="carousel-inner">
+						<div class="carousel-item active slide1"></div>
+						<div class="carousel-item slide2"></div>
+						<div class="carousel-item slide3"></div>
+						<div class="carousel-item slide4"></div>
+				</div>
 
-
-      
-       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+				</a>
+					
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
     </div>
+
+		<div class="hero-text-container">
+					<h1 class="hero-text-title">LA FORMA MAS INNOVADORA DE CAPITALIZAR CRIPTOMONEDA</h1>
+					<b-button class="menu-singup-button herobtn">Register Today</b-button>
+
+					<div class="tickers">
+						<div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="USD" data-secondary="" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="false" data-stats="USD" data-statsticker="false"></div>
+						<div class="coinmarketcap-currency-widget" data-currencyid="2" data-base="USD" data-secondary="" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="false" data-stats="USD" data-statsticker="false"></div>
+						<div class="coinmarketcap-currency-widget" data-currencyid="74" data-base="USD" data-secondary="" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="false" data-stats="USD" data-statsticker="false"></div>
+					</div>
+
+				</div>
 
     <section class="about">
       <div class="about_text container">
         <h1>SOBRE NOSOTROS</h1>
         
-        <h4><p>Empire Business Cluster, es una compañía de inversiones global e independiente, formada por un equipo de trabajo experto en mercados bursátiles tanto virtuales como físicos y especializados en el mercado de las criptomonedas, enfocados en BitCoin (BTC), LiteCoin (LTC) y DogeCoin (DOGE).</p> 
+       <p>Empire Business Cluster, es una compañía de inversiones global e independiente, formada por un equipo de trabajo experto en mercados bursátiles tanto virtuales como físicos y especializados en el mercado de las criptomonedas, enfocados en BitCoin (BTC), LiteCoin (LTC) y DogeCoin (DOGE).</p> 
 
-<p>Ofrecemos a cada inversionista la oportunidad de generar ganancias estables, sin asumir riesgo por falta de conocimiento y capacitación.</p>
+        <p>Ofrecemos a cada inversionista la oportunidad de generar ganancias estables, sin asumir riesgo por falta de conocimiento y capacitación.</p>
 
-<p>Empire Businnes Cluster no solo opera en el comercio de criptomonedas, sino que a su vez trabaja con uno de los comodines más transados en el mundo como lo es el café, mezclando una variedad de inversiones en: Barras de Caffe (Coffee Shop), restaurantes y un Ecommerce. La combinación perfecta de la economía del futuro y la tradicional.</p>
+        <p>Empire Businnes Cluster no solo opera en el comercio de criptomonedas, sino que a su vez trabaja con uno de los comodines más transados en el mundo como lo es el café, mezclando una variedad de inversiones en: Barras de Caffe (Coffee Shop), restaurantes y un Ecommerce. La combinación perfecta de la economía del futuro y la tradicional.</p>
 
-<p>Asignamos el 60% de sus activos a la minería de criptomoneda y trading, lo que garantiza una estabilidad de ganancia en su inversión.</p>
+        <p>Asignamos el 60% de sus activos a la minería de criptomoneda y trading, lo que garantiza una estabilidad de ganancia en su inversión.</p>
 
-<p>Queremos ayudarte a mantener y aumentar tu capital de manera segura, minimizando los riesgos.</p></h4>
+        <p>Queremos ayudarte a mantener y aumentar tu capital de manera segura, minimizando los riesgos.</p>
 
         <button class="about_button">Read More</button>
       </div>
@@ -184,6 +189,7 @@
   </div>
 </template>
 
+
 <script>
 import axios from 'axios'
 
@@ -204,3 +210,6 @@ export default {
 }
 
 </script>
+
+
+
