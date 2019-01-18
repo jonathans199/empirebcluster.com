@@ -13,7 +13,6 @@
     
     // color: #fff;
     margin-bottom: 0px;
-    background-color: #fff;
   }
 
   &_form{
@@ -61,5 +60,15 @@
       border-radius: 10.75px;
       border: 3px solid #FDAF38;
     }
+  }
+}
+
+@media (max-width: 1000px){
+  .contact__container{
+    background: none;
+  }
+
+  .contact_form{
+    width: 80%;
   }
 }

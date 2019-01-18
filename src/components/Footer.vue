@@ -6,7 +6,7 @@
         <div class="col-2 d-flex justify-content-center align-items-center">
           <img class="footer-logo" src="@/assets/img/empire_logo_wht.png" alt="">
         </div>
-        <div class="col-8">
+        <div class="col-8 footer-links">
           <ul>
             <li>ABOUT</li>
             <li>SHOP</li>

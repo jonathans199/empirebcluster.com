@@ -75,9 +75,28 @@ header {
       margin: 10px;
       
     }
+  }
 
-    
+  @media (max-width: 1000px){
+    .menu{
+      flex-direction: column;
+    }
 
+    .header__logo{
+      height: 13rem;
+    }
+
+    .hero-text-title {
+      font-size: 20px;
+    }
+
+    .about_text{
+      width: 80%;
+    }
+
+    .inversion-packets{
+      text-align: center;
+    }
   }
 
   

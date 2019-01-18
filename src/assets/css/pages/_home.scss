@@ -216,3 +216,10 @@ a {
   color: white !important;
 }
 
+@media (max-width: 1000px) {
+  
+  
+  .tickers{
+    flex-direction: column;
+  }
+}
