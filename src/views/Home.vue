@@ -3,8 +3,6 @@
     <Header/>
 			<div id="carouselExampleIndicators" class="carousel slide custom-slide" data-ride="carousel">
 				
-				
- 
 				<div class="carousel-inner">
 						<div class="carousel-item active slide1"></div>
 						<div class="carousel-item slide2"></div>
@@ -60,76 +58,76 @@
     
     <section class="features container">
       <h1>FEATURES </h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore sint, reprehenderit ipsum non, obcaecati asperiores vel, rerum minus deleniti aut molestiae unde laborum numquam illo! Nesciunt mollitia quos molestiae nam.</p>
+      <p>Join today! and start gaining benefits with cryptocurrency</p>
       <div>
         <b-card-group deck >
             <b-card class="features-card">
                 <img src="@/assets/img/bronce.png" alt="" class="features-card_img">
-                <h2>BRONCE</h2>
-                <h3 class="features-card_price">$2,000</h3>
+                <h2>FOUNDER</h2>
+                <h3 class="features-card_price">$200 USD</h3>
                 <p class="features-card_text">
-                    This is a wider card with supporting text below as a
-                    natural lead-in
+                    Monday to Friday payouts 
                 </p>
+                <p>Gain 150% of your investment</p>
                 <img src="@/assets/img/bronce_icon.png" alt="" class="features-card_icon">
             </b-card>
            <b-card class="features-card">
                 <img src="@/assets/img/bronce.png" alt="" class="features-card_img">
-                <h2>BRONCE</h2>
-                <h3 class="features-card_price">$2,000</h3>
-                <p class="features-card_text">
-                    This is a wider card with supporting text below as a
-                    natural lead-in
+                <h2>BASIC</h2>
+                <h3 class="features-card_price">$100 USD</h3>
+               <p class="features-card_text">
+                    Monday to Friday payouts 
                 </p>
+                <p>Gain 150% of your investment</p>
                 <img src="@/assets/img/bronce_icon.png" alt="" class="features-card_icon">
             </b-card>
             <b-card class="features-card">
                 <img src="@/assets/img/bronce.png" alt="" class="features-card_img">
-                <h2>BRONCE</h2>
-                <h3 class="features-card_price">$2,000</h3>
+                <h2>MEDIUM</h2>
+                <h3 class="features-card_price">$300 USD</h3>
                 <p class="features-card_text">
-                    This is a wider card with supporting text below as a
-                    natural lead-in
+                    Monday to Friday payouts 
                 </p>
+                <p>Gain 150% of your investment</p>
                 <img src="@/assets/img/bronce_icon.png" alt="" class="features-card_icon">
             </b-card>
         </b-card-group>
         <b-card-group deck >
             <b-card class="features-card">
                 <img src="@/assets/img/bronce.png" alt="" class="features-card_img">
-                <h2>BRONCE</h2>
-                <h3 class="features-card_price">$2,000</h3>
-                <p class="features-card_text">
-                    This is a wider card with supporting text below as a
-                    natural lead-in
+                <h2>PRO</h2>
+                <h3 class="features-card_price">$600 USD</h3>
+               <p class="features-card_text">
+                    Monday to Friday payouts 
                 </p>
+                <p>Gain 150% of your investment</p>
                 <img src="@/assets/img/bronce_icon.png" alt="" class="features-card_icon">
             </b-card>
            <b-card class="features-card">
                 <img src="@/assets/img/bronce.png" alt="" class="features-card_img">
-                <h2>BRONCE</h2>
-                <h3 class="features-card_price">$2,000</h3>
+                <h2>GOLD</h2>
+                <h3 class="features-card_price">$900 USD</h3>
                 <p class="features-card_text">
-                    This is a wider card with supporting text below as a
-                    natural lead-in
+                    Monday to Friday payouts 
                 </p>
+                <p>Gain 160% of your investment</p>
                 <img src="@/assets/img/bronce_icon.png" alt="" class="features-card_icon">
             </b-card>
             <b-card class="features-card">
                 <img src="@/assets/img/bronce.png" alt="" class="features-card_img">
-                <h2>BRONCE</h2>
-                <h3 class="features-card_price">$2,000</h3>
+                <h2>PLATINUM</h2>
+                <h3 class="features-card_price">$1,800 USD</h3>
                 <p class="features-card_text">
-                    This is a wider card with supporting text below as a
-                    natural lead-in
+                    Monday to Friday payouts 
                 </p>
+                <p>Gain 160% of your investment</p>
                 <img src="@/assets/img/bronce_icon.png" alt="" class="features-card_icon">
             </b-card>
         </b-card-group>
       </div>
     </section>
 
-    <section class="our-plans">
+    <!-- <section class="our-plans">
       <div class="container">
         <div class="our-plans_titletext">
           <h1>OUR PLANS</h1>
@@ -170,11 +168,9 @@
           </b-card-group>
         </div>
       </div>
-    </section>
+    </section> -->
 
-
-
-    <div class="newsletter">
+    <!-- <div class="newsletter">
       <div class="container">
         <h1 class="newsletter-title">Subscribe for Our Newsletter</h1>
         <p class="newsletter-subtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque soluta ducimus porro vel aperiam quos dicta hic excepturi alias. Omnis similique beatae nam unde. Recusandae asperiores porro minus sapiente et?</p>
@@ -183,12 +179,12 @@
           <span class="newsletter-text"> Subscribe</span>
         </b-btn>
       </div>
-    </div>
+    </div> -->
+    
     <Contact/>
     <Footer/>
   </div>
 </template>
-
 
 <script>
 import axios from 'axios'
@@ -210,6 +206,3 @@ export default {
 }
 
 </script>
-
-
-

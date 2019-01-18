@@ -4,8 +4,8 @@
       <div id="myNav" class="overlay">
           <a href="javascript:void(0)" class="closebtn" @click="closeNav()">&times;</a>
         <div class="overlay-content">
-          <router-link to="/about">About</router-link>
-          <router-link to="/">Contact</router-link>
+          <router-link to="#about">About</router-link>
+          <router-link to="#footer">Contact</router-link>
         </div>
       </div>
       
@@ -14,10 +14,10 @@
           <a class="navbar-brand" href="/"><img class="header__logo" alt="Vue logo" src="@/assets/img/empire_logo_wht-h.png"></a>
 
           <div class="menu-right">
-            <a class="menu__buttons" @click="openNav()"> 
+            <!-- <a class="menu__buttons" @click="openNav()"> 
               <span class>MENU</span>
               <img class="menu_ham" src="../assets/img/menu-button.svg" alt="">
-            </a>
+            </a> -->
             <b-button href="https://app.empirebcluster.com/#/register" target="_self" class="menu-singup-button">Sign up</b-button>            
             <b-button href="https://app.empirebcluster.com/" target="_self" class="menu-singup-button">Login</b-button>
           </div>
