@@ -1,6 +1,9 @@
 footer {
     // height: 30rem;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+
     background: #000;
     color: white;
     
@@ -47,10 +50,6 @@ footer {
   }
 
 @media (max-width: 1000px){
-    .row { 
-        flex-direction: column;
-        align-items: center;
-    }
     .footer-links{
         display: none;
     }

@@ -5,6 +5,27 @@ header {
     top: 1rem;
     z-index: 3;
   }
+
+  .select-custom{
+    position: relative;
+    font-family: Arial;
+    background-color: transparent;
+    border:none;
+    color: white;
+    font-size: 2rem;
+    border-radius: 0;
+  }
+
+  .select-custom:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
   
   .header__logo {
     align-self: flex-start;
@@ -27,6 +48,7 @@ header {
     z-index: 1000;
     width: 100%;
   }
+  
   // .navbar__custom-menu { 
   //   display: flex;
   //   width: 100%;

@@ -13,11 +13,10 @@
 <script>
 import Vue from 'vue'
 import Toasted from 'vue-toasted'
+import * as config from '@/config/settings'
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-
-import config from '@/config/settings'
 
 Vue.use(BootstrapVue)
 Vue.use(Toasted)

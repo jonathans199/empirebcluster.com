@@ -3,8 +3,8 @@
     <!-- <img src="@/assets/img/contact.png" class="contact__img" alt=""> -->
       <div class="contact_form"> 
         <div class="container">
-          <h1 class="col-12 text-center mb-5">CONTACT US</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad laudantium iste necessitatibus </p>
+          <h1 class="col-12 text-center mb-5">CONTACTO</h1>
+          <p>Cualquier pregunta favor llenar el formulario abajo</p>
          
           <b-form-group inline class="contact_form-group"  label-for="elementsAppend" >
             <b-input-group>
@@ -28,7 +28,7 @@
           </b-form-group>
           <div class="col-6 contact_form-group contact_form-submit" label-for="elementsAppend" >
             <button class="contact_form-button">
-              <span class="contact_form-button-text">Send Message</span>
+              <span class="contact_form-button-text">Enviar </span>
             
             </button>
           </div>

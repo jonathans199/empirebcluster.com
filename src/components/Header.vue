@@ -18,8 +18,15 @@
               <span class>MENU</span>
               <img class="menu_ham" src="../assets/img/menu-button.svg" alt="">
             </a> -->
-            <b-button href="https://app.empirebcluster.com/#/register" target="_self" class="menu-singup-button">Sign up</b-button>            
-            <b-button href="https://app.empirebcluster.com/" target="_self" class="menu-singup-button">Login</b-button>
+
+           <div>
+            <select v-model="currentLocale">
+              <option v-for="locale in locales" v-bind:value="locale.id">{{locale.name}}</option>
+            </select>
+          </div>
+
+            <b-button href="https://app.empirebcluster.com/#/register" target="_self" class="menu-singup-button">{{ signupBtn[currentLocale] }}</b-button>            
+            <b-button href="https://app.empirebcluster.com/" target="_self" class="menu-singup-button">{{ loginBtn[currentLocale]}}</b-button>
           </div>
       </div>
     </nav>
@@ -27,59 +34,49 @@
 </template>
 
 <script>
-import axios from 'axios'
 import config from '@/config/settings'
 import { serverBus } from '@/main'
 
 export default {
-  name:'menu2',
+  name: 'Header',
+
 
   data(){
-    return{
-      count: 0,
-      items:[]
+    return {
+
+    currentLocale:'eng',
+      locales: [ 
+        {id: 'eng', name: 'English'}, 
+        {id: 'esp', name: 'Spanish'}
+        ],
+
+        heading: {
+          eng: 'Hello you, Vue.js!',
+          esp: "Hola tu, con Vue.js"
+        },
+        signupBtn: {
+          eng: 'Sign Up',
+          esp: 'Registrate'
+        },
+        loginBtn: {
+          eng: 'Login',
+          esp: 'Iniciar'
+        },
+        heroText: {
+          eng: 'THE MOST INNOVATIVE WAY TO CAPITALIZE IN CRYPTOCURRENCY',
+          esp: 'LA FORMA MAS INNOVADORA DE CAPITALIZAR CRIPTOMONEDA'
+        }
     }
   },
 
-  created(){
-    this.updateCart()
-    serverBus.$on('updateHeaderCart', () => {
-      this.updateCart()
-    })
+  
+
+  created(){ 
+  
+    
   },
 
   methods:{
-    
-    updateCart(){
-      this.items = []
-      let cartProducts = JSON.parse(config.getLocalCart())
-          cartProducts.map((product,index) => {
-            this.fetchProducts(product)
-          })
-    },
-
-    fetchProducts(product){
-      axios
-      .get(config.defaultURL + config.storeUUID + '/client/products/' + product.uuid)
-      .then((response) => {
-        let item = response.data
-        if(item.images.length ==  0) {
-          item['images'] = [{
-            thumb: '/img/default.jpg'
-          }]
-        }
-        this.items.push({
-          name:item.name,
-          qty:product.qty,
-          images:item.images
-        })
-        this.count = this.items.length
-      })
-      .catch(function(error){
-        console.log(error)
-      })
-
-    },
     
     openNav() {
       document.getElementById("myNav").style.width = "450px"
@@ -89,15 +86,17 @@ export default {
       document.getElementById("myNav").style.width = "0"
     },
 
-    // scroll(id){
-    //   let data = async() => {
-    //     await helper.goToByScroll(id)
-    //     await this.closeNav()
-    //   }
-    //   data()
-    // }
+    scroll(id){
+      let data = async() => {
+        await helper.goToByScroll(id)
+        await this.closeNav()
+      }
+      data()
+    }
   }
+  
 }
+
 </script>
 
 <style>
